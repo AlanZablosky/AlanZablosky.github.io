@@ -1,0 +1,135 @@
+/*Cabecera*/
+.nav-lateral {
+    position: fixed;
+    padding: 0px;
+    margin-top: 150px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    margin:-20px;
+    
+}
+
+.itemNav2 {
+    
+    color: white;
+    margin: 30px;
+    transition-duration: 0.4s;
+
+}
+
+.itemNav2:hover {
+    scale:  1.2;
+    filter: drop-shadow(0px 0px 8px rgb(255, 255, 255));
+}
+
+.barraLateral{
+    
+}
+
+/*Index */
+body{
+    background-image: radial-gradient(ellipse 100% 100% at 50% -10%, rgb(57, 18, 233), rgba(47, 0, 255, 0.178), hsla(236, 100%, 50%, 0.048));
+}
+
+.fade {
+    animation: fade linear both;
+    animation-range: entry 40% cover 30%;
+    animation-timeline: view();
+}
+
+/*mas info - logos*/
+.tecnoTitulo{
+    text-align: center;
+}
+.Imglogo{
+    
+}
+.logoIcon{
+    width: 200px;
+}
+.boostrapIcon{
+    width: 200px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: scale(.9)
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1)
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+#indice {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    
+}
+.encabezado{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    
+}
+
+.sobremi {
+    text-align: center;
+    /* Centra el texto dentro del div */
+    margin: 0 auto;
+    /* Centra el div en la página */
+    width: 60%;
+    /* Ancho del div */
+    padding: 20px;
+    /* Espacio interno del div */
+    
+}
+
+.card {
+    width: 18rem;
+    transition-duration: .3s;
+}
+
+.card:hover {
+    filter: drop-shadow(0px 0px 8px rgb(255, 255, 255));
+    scale:  1.2;
+}
+
+.tituloProyecto {
+    text-align: center;
+    margin: 50px;
+}
+
+#Vermas{
+    text-align: center;
+    margin: 100px;
+}
+
+/*Form-contacto */
+#contacto {
+    
+}

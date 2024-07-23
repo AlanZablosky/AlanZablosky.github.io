@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio-AlanZablosky</title>
+</head>
+
+<body data-bs-theme="dark">
+
+<header class="sticky-top">
+    <!-- Barra de navegación superior-->
+            <nav id="barraDeArriba" class="navbar navbar-expand-lg bg-body-tertiary ">
+                <div class="container-fluid mx-5">
+                    <!--<a class="navbar-brand fw-bold" href="#">- Portfolio -</a>-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav flex-row flex-wrap ms-auto justify-content-around">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold" aria-current="page" href="#project">Proyectos</a>
+                            </li>
+                            <li class="nav-item  py-2 py-lg-1 col-12 col-lg-auto">
+                                <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
+                                <hr class="d-lg-none my-2 text-white-50">
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link fw-bold" href="#contacto">Contactame</a>
+                            </li>
+                            <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
+                                <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
+                                <hr class="d-lg-none my-2 text-white-50">
+                            </li>
+                            <li class="nav-item col-lg-auto">
+                                <a href="https://www.linkedin.com/in/alan-zablosky-6b702b230/" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin mx-2" viewBox="0 0 16 16">
+                                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
+                                <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
+                                <hr class="d-lg-none my-2 text-white-50">
+                            </li>
+                            <li class="nav-item col-lg-auto">
+                                <a href="https://github.com/AlanZablosky" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github mx-2" viewBox="0 0 16 16">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    <!-- Barra lateral para escritorio -->
+            <nav class="">
+                <div class="barraLateral">
+                    <ul id="barraLateral" class="nav-lateral ">
+                        <a href="#" class="nav2 ">
+                            <i class="itemNav2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z" />
+                                </svg>
+                            </i>
+                        </a>
+                        <a href="#project" class="nav2">
+                            <i class="itemNav2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+                                </svg>
+                            </i>
+                        </a>
+                        <a href="#contacto" class="nav2">
+                            <i class="itemNav2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                                </svg>
+                            </i>
+                        </a>
+                        <hr class=" text-white-50">
+                        <a href="https://github.com/AlanZablosky" class="nav2" target="_blank">
+                            <i class="itemNav2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github mx-2" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
+                            </i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alan-zablosky-6b702b230/" class="nav2" target="_blank">
+                            <i class="itemNav2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin mx-2" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                </svg>
+                            </i>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+
+</header>
+
+<section class="">
+        <div class="encabezado shadow-lg container">
+            <div id="sobremi" class="text-center py-5">
+                <h1 class="display-5 fw-bold">Me llamo Alan Zablosky</h1>
+                <div class="sobremi fw-bold">
+                    <p >¡Hola! Soy Alan Zablosky, estudiante autodidacta, artista digital y programador web.
+                        Este es mi portafolio donde subiré proyectos de práctica con el fin
+                        de adquirir más conocimiento en el mundo de la programación web.
+                    </p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#masInfo" aria-expanded="false" aria-controls="collapseExample">
+                        Más info
+                    </button>
+                    <div class="collapse container-flex" id="masInfo">
+                        <h5 class="tecnoTitulo">Tecnologias usadas en esta pagina:</h5>
+                        <div class="Imglogo">
+                            <img src="img/Logos - Html.jpg" class="logoIcon" alt="">
+                            <img src="img/Logos - Css.jpg" class="logoIcon" alt="">
+                            <img src="img/Logos - Js.jpg" class="logoIcon" alt="">
+                            <img src="img/bootstrap-logo-png--500.png" class="boostrapIcon" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr id="project" class="text-white-50 fade">
+        <div id="indice">
+            <div>
+                <h1 class="tituloProyecto fade fw-bold">Proyectos</h1>
+            </div>
+
+            <div class="fade" style="display:flex; justify-content:space-evenly;">
+
+                <div class="card fate " >
+                    <a href="#" class="" target="_blank">
+                        <img src="img/codigoGenerico.jpg" class="card-img-top" alt="Proyecto 1">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text text-center fw-bold">Proyecto 1</p>
+                    </div>
+                </div>
+    
+                <div class="card fate" >
+                    <a href="https://github.com/AlanZablosky/Repo1--PiedraPapelTijera-Python" class="" target="_blank">
+                        <img src="img\Proyect2.jpg" class="card-img-top" alt="https://github.com/AlanZablosky/Repo1--PiedraPapelTijera-Python">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text text-center fw-bold">Proyecto: Piedra,papel o tijeras en Python en codigo</p>
+                    </div>
+                </div>
+    
+                <div class="card fate" >
+                    <a href="#" class="" target="_blank">
+                        <img src="img/codigoGenerico.jpg" class="card-img-top" alt="Proyecto 3">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text text-center fw-bold">Proyecto 3</p>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="fade " id="Vermas">
+                <a href="#">
+                    <button  class="btn btn-primary btn-lg fw-bold">Mostrar más</button>
+                </a>
+            </div>
+        </div>
+    
+        <hr class="text-white-50 mt-5 fade">
+
+        <div id="contacto" class="container fw-bold fade ">
+
+            <h3>Contacto</h3><br>
+        
+            <form action="https://formsubmit.co/a2add7ee209feedad0c5bc77a8d54377" method="POST">
+        
+                <div class="mb-3 row">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" name="name" class="form-control" autocapitalize="words" id="nombre" placeholder="Nombre" required>
+                </div>
+        
+                <div class="mb-3 row">
+                    <label for="asunto" class="form-label">Asunto</label>
+                    <input type="text" name="subject" class="form-control" id="asunto" placeholder="asunto" required>
+                </div>
+        
+                <div class="mb-3 row">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Nombre@Ejemplo.com" required>
+                </div>
+        
+                <div class="form-floating mb-3 row">
+                    <textarea class="form-control " id="mensaje" name="comments" required style="height: 100px" rows="3" placeholder="Escriba aqui su motivo de contacto..."></textarea>
+                    <label for="floatingTextarea2">motivo de contacto</label>
+                </div>
+        
+                <button type="submit" name="contact" class="btn btn-success mt-3 fw-bold">Enviar</button>
+        
+                <input type="hidden" name="_next" value="http://localhost/ejercicios/AlanZablosky_porfolio/index.php">
+                <input type="hidden" name="_autoresponse" value="El mensaje ha sido enviado con exito, me comunicare a la brevedad con usted">
+            
+            </form>
+            
+        </div>
+</section>
+
+<footer class="bd-footer py-4 py-md-5 mt-5 bd-body-tertiary">
+    <hr class=" text-white-50">
+        <div>
+            <p class="text-center fw-bold"> © 2024 Alan Zablosky. Todos los derechos reservados.</p>
+        </div>
+        <div style="display:flex; justify-content:center;">
+            <a href="https://github.com/AlanZablosky/AlanZablosky_Porfolio" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                </svg>
+            </a>
+        </div>
+    </footer>
+</body>
+
+<!-- JS -->
+<script src="scritps.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
+
