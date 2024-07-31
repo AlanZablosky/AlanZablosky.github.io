@@ -41,6 +41,13 @@ body{
 }
 
 /*mas info - logos*/
+#masInfo{
+    
+}
+.Cv{
+    margin: 20px;
+}
+
 .tecnoTitulo{
     text-align: center;
 }
@@ -84,6 +91,9 @@ body{
     to {
         opacity: 0
     }
+}
+.accordion{
+    margin: 20px;
 }
 
 #indice {
